@@ -68,7 +68,7 @@ paths:
           description: "student not found"
       x-swagger-router-controller: "swagger_server.controllers.default_controller"
     delete:
-      description: ""
+      description: "delete a student"
       operationId: "delete_student"
       produces:
       - "application/xml"
